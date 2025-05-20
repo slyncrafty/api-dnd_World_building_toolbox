@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>🐉 D&D World Building Toolbox 🧙‍♂️</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="container">
+			<h1>🐉 D&D World Building Toolbox 🧙‍♂️</h1>
+		</section>
+		<!-- <img src="./img/dnd.jpg" alt="flying red dragon"> -->
+		<section class="container">
+			<div class="builder">
+				<label>Race:
+					<select id="race-select"></select>
+				</label>
+
+				<label>Class:
+					<select id="class-select"></select>
+				</label>
+
+				<label>Background:
+					<select id="background-select"></select>
+				</label>
+			</div>
+			<div class="builder name">
+				<label>Name:
+					<input type="text" id="char-name">
+					<button id="generate-name-btn">Generate Name</button>
+				</label>
+				<aside id="name-history">
+					<h4>Generated Names:</h4>
+					<ul id="name-list"></ul>
+				</aside>
+			</div>
+			<div class="builder">
+				<label>Key phrase:
+					<select id="keyphrase-select">
+					</select>
+				</label>
+			</div>
+			<div class="builder color-list">
+				<h4>Color Scheme: </h4>
+				<div class="color-scheme-row">
+					<div class="color-scheme prime"></div>
+					<div class="color-scheme second"></div>
+					<div class="color-scheme third"></div>
+					<div class="color-scheme forth"></div>
+				
+				</div>
+			</div>
+			<div class="builder">
+				<button id="build-character-btn">Build Character</button>
+			</div>
+			<div class="builder output">
+				<h4>Backstory:</h4>
+				<div id="output">
+					<span>Your backstory will appear here...</span>
+				</div>
+			</div>
+		</section>
+
+		<section id="built"></section>
+	
+
+		<script type="module" src="js/main.js"></script>
+	</body>
+</html>
