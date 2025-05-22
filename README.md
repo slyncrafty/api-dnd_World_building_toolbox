@@ -13,7 +13,7 @@ An interactive web app that helps users build a custom Dungeons & Dragons Backgr
 
 **Tech used:** HTML, CSS, JavaScript
 
-- Uses [DND5eAPI](/ https://www.dnd5eapi.co/) to fetch:
+- Uses [DND5eAPI](https://www.dnd5eapi.co/) to fetch:
   - Race, Class, and Background details and Key phrases.
 - Color schemes generated using [ColorAPI](https://www.thecolorapi.com/) and a selection of base colors.
   - Base color is referenced from [dndbeyond](https://www.dndbeyond.com/forums/dungeons-dragons-discussion/arts-crafts/34956-class-colors)
